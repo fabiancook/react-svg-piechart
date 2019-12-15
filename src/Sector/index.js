@@ -36,6 +36,7 @@ const Sector = ({
       }}
     >
       {title && <title>{title}</title>}
+      {title && <text>{title}</text>}
     </path>
   )
 
