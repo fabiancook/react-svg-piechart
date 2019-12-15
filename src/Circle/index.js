@@ -29,6 +29,7 @@ const Circle = ({
     strokeWidth={strokeWidth}
   >
     {title && <title>{title}</title>}
+    {title && <text>{title}</text>}
   </ellipse>
 )
 
